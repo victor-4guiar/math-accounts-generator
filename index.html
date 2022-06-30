@@ -10,7 +10,11 @@
 		<section>
 			<h1>Math accounts generator</h1>
 			<div id="entr">
-				<p>Type the number limit: <input type="number" name="lim" id="lim"><input type="button" value="Finished" onclick="calcular()"></p>
+				<p>Type the number limit: <input type="number" max="100000000" name="lim" id="lim"></p><hr>
+				<h2>Especific Configurations</h2>
+				<p>Type the <strong>first number</strong> limit: <input type="number" max="100000000" name="lim1" id="lim1"></p>
+				<p>Type the <strong>last number</strong> limit: <input type="number" max="100000000" name="lim2" id="lim2"></p>
+				<input type="button" value="Finished" onclick="calcular()">
 			</div>
 			<div id="said">
 			</div>

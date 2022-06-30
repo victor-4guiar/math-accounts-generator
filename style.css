@@ -32,13 +32,16 @@ section{
 
 section h1{
 	font-size: 1.8em;
-	margin-bottom: 10px;
 }
 
 section input{
 	font-size: 0.9em;
 	padding: 1px;
 	margin: 0px 5px 0px 5px;
+}
+
+section p, hr, h1, h2{
+	margin-bottom: 10px;
 }
 
 div#entr{
