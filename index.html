@@ -4,16 +4,18 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="style.css">
-		<title>Random Calc</title>
+		<link rel="shortcut icon" href="favicon.ico">
+		<title>Math Accounts Generator</title>
 	</head>
 	<body>
 		<section>
-			<h1>Math accounts generator</h1>
+			<h1>Math Accounts Generator</h1>
 			<div id="entr">
 				<p>Type the number limit: <input type="number" max="100000000" name="lim" id="lim"></p><hr>
 				<h2>Specific Settings</h2>
 				<p>Type the <strong>first number</strong> limit: <input type="number" max="100000000" name="lim1" id="lim1"></p>
 				<p>Type the <strong>last number</strong> limit: <input type="number" max="100000000" name="lim2" id="lim2"></p>
+				<p>Type the number of accounts to generate: <input type="number" min="1" max="100" name="nofa" id="nofa"></p>
 				<input type="button" value="Finished" onclick="calcular()">
 			</div>
 			<div id="said">
