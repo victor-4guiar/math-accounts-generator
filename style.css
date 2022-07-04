@@ -55,3 +55,26 @@ div#said p{
 	font-weight: bold;
 	text-align: center;
 }
+
+footer{
+	text-align: center;
+}
+
+footer p{
+	font-size: 1.3em;
+}
+
+footer a{
+	color: #1A1A1A;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+footer img{
+	display: inline;
+}
+
+/* [Easter Egg?] Ra s lan de o... */
